@@ -1,0 +1,96 @@
+Sequence 1: ('Homo sapiens', 'RHPYSIIRRSIQIPEEDR')
+Sequence 2: ('Mus musculus', 'HGPVKDFSF')
+Alignement:
+RHPYSIIRRSIQI-PEE--DR---
+ |            |    |    
+-H-----------GP--VKD-FSF
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'RHPYSIIRRSIQIPEEDR')
+Sequence 2: ('Mus musculus', 'TGPRHPYSI')
+Alignement:
+---RHPYSIIRRSIQIPEEDR
+   ||||     |  |     
+TGPRHPY-----S--I-----
+  Score=6
+
+Sequence 1: ('Homo sapiens', 'APRHPYSIIRRSIQIPE')
+Sequence 2: ('Mus musculus', 'HGPVKDFSF')
+Alignement:
+APRH-PYSIIRR----SIQIPE-
+   | |          |      
+---HGP------VKDFS-----F
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'APRHPYSIIRRSIQIPE')
+Sequence 2: ('Mus musculus', 'TGPRHPYSI')
+Alignement:
+A--PRHPYSIIRRSIQIPE
+   |||||     |  |  
+-TGPRHPY-----S--I--
+  Score=7
+
+Sequence 1: ('Homo sapiens', 'LKSFTSMDSRSASHR')
+Sequence 2: ('Mus musculus', 'HGPVKDFSF')
+Alignement:
+L----KSFTSMDSRSA-SHR-
+     |     |     |   
+-HGPVK-----D----FS--F
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'LKSFTSMDSRSASHR')
+Sequence 2: ('Mus musculus', 'TGPRHPYSI')
+Alignement:
+LKSFTSMDS--RSASHR----
+    |      |   |     
+----T----GPR---H-PYSI
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'LRLKSFTSMDSRSASHRST')
+Sequence 2: ('Mus musculus', 'HGPVKDFSF')
+Alignement:
+LRL----KSFTSMDSRSASHR-ST-
+       |     |        |  
+---HGPVK-----D-------FS-F
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'LRLKSFTSMDSRSASHRST')
+Sequence 2: ('Mus musculus', 'TGPRHPYSI')
+Alignement:
+LRLKSFTSMDS--RSASHR--ST-
+      |      |   |   |  
+------T----GPR---H-PYS-I
+  Score=4
+
+Sequence 1: ('Homo sapiens', 'RLKSFTSMDSRSASHRS')
+Sequence 2: ('Mus musculus', 'HGPVKDFSF')
+Alignement:
+RL----KSFTSMDSRSASHR-S-
+      |     |        | 
+--HGPVK-----D-------FSF
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'RLKSFTSMDSRSASHRS')
+Sequence 2: ('Mus musculus', 'TGPRHPYSI')
+Alignement:
+RLKSFTSMDS--RSASHR--S-
+     |      |   |   | 
+-----T----GPR---H-PYSI
+  Score=4
+
+Sequence 1: ('Homo sapiens', 'RLKSFTSMDSRSASHRST')
+Sequence 2: ('Mus musculus', 'HGPVKDFSF')
+Alignement:
+RL----KSFTSMDSRSASHR-ST-
+      |     |        |  
+--HGPVK-----D-------FS-F
+  Score=3
+
+Sequence 1: ('Homo sapiens', 'RLKSFTSMDSRSASHRST')
+Sequence 2: ('Mus musculus', 'TGPRHPYSI')
+Alignement:
+RLKSFTSMDS--RSASHR--ST-
+     |      |   |   |  
+-----T----GPR---H-PYS-I
+  Score=4
+

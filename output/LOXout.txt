@@ -1,0 +1,8 @@
+Sequence 1: ('Homo sapiens', 'LPYTGAETRI')
+Sequence 2: ('Mus musculus', 'VPPEAYVPPRAVEPQPP')
+Alignement:
+L-P---YTG----A-ETRI----
+  |   |      | |       
+-VPPEAY--VPPRAVE---PQPP
+  Score=4
+

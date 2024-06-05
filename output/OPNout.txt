@@ -1,0 +1,4 @@
+Sequence 1: ('Homo sapiens', 'FRRPDIQYPDATDEDITSH')Sequence 2: ('Mus musculus', 'WLKPDPS')Alignement:FRR---PDIQYPDATDEDITSH
+      ||   |        | 
+---WLKPD---P--------S-
+  Score=4
