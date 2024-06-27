@@ -1,6 +1,7 @@
 import json
 import csv
 import numpy
+import Bio
 from Bio import pairwise2
 from Bio.pairwise2 import format_alignment
 
