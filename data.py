@@ -1,9 +1,6 @@
 import json
 import csv
-import numpy
-import Bio
 from Bio import pairwise2
-from Bio.pairwise2 import format_alignment
 
 def load_json(file_path):
     with open(file_path, 'r') as file:
@@ -27,20 +24,6 @@ def compare_sequences(sequences_human, sequences_mouse):
             comparisons.append({(alignments[0].score / min(len(seq1[1]), len(seq2[1]))), seq1[1], seq2[1]})
     return comparisons
 
-def perform_permutation(sequences_human, sequences_mouse, num_permutations=50):
-    scores = []
-    for seq1 in sequences_human:
-        for seq2 in sequences_mouse:
-            scores_list = []
-            for _ in range(num_permutations):
-                permuted_seq1 = permute_sequence(seq1[1])
-                permuted_seq2 = permute_sequence(seq2[1])
-                permuted_scores = pairwise2.align.globalxx(permuted_seq1, permuted_seq2)
-                scores_list.append((permuted_scores[0].score/ min(len(seq1[1]), len(seq2[1]))))
-            scores.append(scores_list)
-
-    return scores
-
 def print_comparisons(comparisons,x):
     f = open("output/" + x + "out.txt", "w")
     for comp in comparisons:
@@ -57,9 +40,6 @@ def createCsvFile(x, comparisons):
         writer.writerow(['scores'])
         writer.writerows(comparisons)
 
-def permute_sequence(seq):
-    return ''.join(numpy.random.permutation(list(seq)))
-
 def main():
     print('Enter protein name:')
     x = input()
@@ -71,7 +51,7 @@ def main():
     sequences_mouse = extract_sequences(data_mouse)
 
     comparisons_orignal = compare_sequences(sequences_human, sequences_mouse)
-    # createCsvFile(x, comparisons_orignal)
+    createCsvFile(x, comparisons_orignal)
 
     max_alignment = {}
     maxFloat = 0;
